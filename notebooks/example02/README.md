@@ -18,12 +18,14 @@ The goal of the lab is to:
   
   ---------
 
-  # Folder Structure
-  lab2_howell/
+### Folder Structure
+```text
+lab2_howell/
 │
 ├── Howell.csv              # Dataset file (semicolon-separated)
 ├── howell_lab2.ipynb       # Jupyter notebook for Lab 2
 └── README.md               # This file
+
 
 
 ----------
