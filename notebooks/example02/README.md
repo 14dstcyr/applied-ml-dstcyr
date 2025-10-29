@@ -1,5 +1,10 @@
 # Lab 2 Howell Project Overview
 
+**Author:** Deb St. Cyr  
+**Course:** Applied Machine Learning – Module 2  
+**Institution:** Northwest Missouri State University  
+**Date:** October 2025  
+
 This lab explores the Howell dataset, a classic anthropometric dataset widely used in data analysis and statistical modeling.
 The goal of the lab is to:
 
