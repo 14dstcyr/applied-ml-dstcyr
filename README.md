@@ -27,6 +27,7 @@ Each project will be completed in its own folder.
 - notebooks/project01 folder:
   - ml01.ipynb - COMPLETE THIS
   - ml01.py - working script with just the code
+  - D2_Pet_Adoption_Analysis__StCyr.ipynb
   - README.md - instructions - modify this to present your lab project
 
 ---
