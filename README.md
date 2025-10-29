@@ -181,3 +181,32 @@ With a working version safe in GitHub, start making changes to the code.
 Before starting a new session, remember to do a `git pull` and keep your tools updated.
 
 Each time forward progress is made, remember to git add-commit-push.
+
+
+
+# 🐾 Pet Adoption Trends Analysis
+
+This project analyzes the **Pet Adoption Records** dataset from Kaggle to uncover patterns in adoption behavior across different species, breeds, ages, and adopter demographics.
+
+## Objectives
+- Identify seasonal trends in pet adoptions.  
+- Compare adoption rates by **species, breed, and gender**.  
+- Examine adopter experience and age as predictive factors for adoption outcomes.  
+
+## Key Insights
+- **Dogs peak in January**, while **cats peak in June**, suggesting distinct seasonal adoption cycles.  
+- Younger pets (1–3 years old) are adopted most often, while senior pets show smaller peaks in January and June.  
+- Adopters with previous pet experience are more likely to adopt successfully.  
+
+## Tools Used
+- Python (Pandas, Matplotlib, Seaborn)
+- Jupyter / Kaggle Notebooks
+
+## Source
+Dataset: [Pet Adoption Records with Animal and Adopter Data](https://www.kaggle.com/datasets/chaudharisanika/pet-adoption-records-with-animal-and-adopter-data)
+
+---
+
+**Author:** Deb St. Cyr  
+*Northwest Missouri State University – Machine Learning, Module 2*
+
