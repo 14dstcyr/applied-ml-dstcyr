@@ -18,18 +18,20 @@ The goal of the lab is to:
   
   ---------
 
-  # Folder Structure
-  lab2_howell/
+### Folder Structure
+```text
+lab2_howell/
 │
 ├── Howell.csv              # Dataset file (semicolon-separated)
 ├── howell_lab2.ipynb       # Jupyter notebook for Lab 2
 └── README.md               # This file
+```
 
 
 ----------
 
 # Environment Setup
-**Dependencies** (install via 'pip' or within your '.venv' environment):
+**Dependencies** (install via `pip` or within your `.venv` environment):
 
 ```
 pip install pandas numpy matplotlib scikit-learn
@@ -46,7 +48,7 @@ pip install pandas numpy matplotlib scikit-learn
 # Notebook Sections
 **Section 1: Import and Inspect the Data**
 
-- Load the Howell dataset using 'pandas.read_csv()' with 'sep=";".'
+- Load the Howell dataset using `pandas.read_csv()` with `sep=";"`.
 
 - Display data info, summary statistics, and correlations.
 
@@ -66,15 +68,15 @@ pip install pandas numpy matplotlib scikit-learn
 
 **2.2 Data Cleaning**
 
-- Demonstrate how to add and remove columns with 'DataFrame.drop()'.
+- Demonstrate how to add and remove columns with `DataFrame.drop()`.
 
 - Compute medians and means.
 
-- Fill missing values using '.fillna()' (dataset had none, but the process was shown).
+- Fill missing values using `.fillna()` (dataset had none, but the process was shown).
 
 **2.3 Feature Engineering**
 
-- Create a **BMI** feature using the metric formula '10000 * weight / height²'.
+- Create a **BMI** feature using the metric formula `10000 * weight / height²`.
 
 - Add a **BMI** category feature with four classes (Underweight, Normal, Overweight, Obese).
 
@@ -94,17 +96,17 @@ pip install pandas numpy matplotlib scikit-learn
 
 **3.1 Adult/Child Split**
 
-- Separate dataset into adults ('age > 18') and children ('age ≤ 18').
+- Separate dataset into adults (`age > 18`) and children (`age ≤ 18`).
 
 **3.2 Basic Train/Test Split**
 
-- Use 'train_test_split()' (80/20) to divide adult data.
+- Use `train_test_split()` (80/20) to divide adult data.
 
 - Compare gender ratios between training and test sets.
 
 **3.3 Stratified Train/Test Split**
 
-- Use 'StratifiedShuffleSplit()' to preserve gender balance in both training and test sets.
+- Use `StratifiedShuffleSplit()` to preserve gender balance in both training and test sets.
 
 - Compare male/female ratios across original, training, and test subsets.
 

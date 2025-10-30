@@ -1,0 +1,33 @@
+# Project 2: Titanic Dataset Exploration
+
+This folder contains a ready-to-edit Jupyter Notebook for your Project 2 analysis.
+
+## Files
+- `ml02_stcyr.ipynb` — your notebook starter with numbered sections, reflections, and working code cells.
+- `README.md` — this file with instructions and tips.
+
+## Where to put this in your repo
+Place this folder under your course repository at:
+```
+notebooks/
+  project01/
+  project02/
+    README.md
+    ml02_stcyr.ipynb
+```
+> If your repo already has a `notebooks/project02` folder, you can drop these files into it.
+
+## How to Run
+1. Open your course repo in VS Code.
+2. Ensure your Python environment (the same as Project 1) is activated.
+3. Open `ml02_stcyr.ipynb` and run cells top-to-bottom.
+
+## What to Edit
+- Update the **title block** (name, date) in the first cell as needed.
+- Add short **Reflection** answers after each section.
+- Improve charts or add more (e.g., survival by `sex`, `class`, `embarked`, etc.).
+
+## Notes
+- The dataset is loaded from `seaborn.load_dataset("titanic")`, so no CSV is required.
+- Correlations use `numeric_only=True` to avoid warnings.
+- The stratified split is stratified by the **target (`survived`)**; compare class distributions to confirm.
