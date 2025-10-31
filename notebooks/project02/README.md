@@ -5,6 +5,7 @@ This folder contains a ready-to-edit Jupyter Notebook for your Project 2 analysi
 ## Files
 - `ml02_stcyr.ipynb` — your notebook starter with numbered sections, reflections, and working code cells.
 - `README.md` — this file with instructions and tips.
+- `m102.py` - working script with just the code.
 
 ## Where to put this in your repo
 Place this folder under your course repository at:
