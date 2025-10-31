@@ -38,23 +38,23 @@ notebooks/
 
 This sequence ensures that all dependencies are up to date, code is cleanly formatted, and all quality checks pass before committing to GitHub.
 
-# 1. Update and sync dependencies (safe to run anytime)
+### 1. Update and sync dependencies (safe to run anytime)
 uv sync --extra dev --extra docs --upgrade
 
-# 2. Stage only Titanic project files
+### 2. Stage only Titanic project files
 git add notebooks/project02 m102.py
 
-# 3. Run Ruff for formatting and linting fixes
+### 3. Run Ruff for formatting and linting fixes
 uvx ruff check --fix
 
-# 4. Run all pre-commit quality checks
+### 4. Run all pre-commit quality checks
 uv run pre-commit run --all-files
 
-# 5. Stage any remaining auto-fixes (Ruff or pre-commit may reformat files)
+### 5. Stage any remaining auto-fixes (Ruff or pre-commit may reformat files)
 git add .
 
-# 6. Commit clean code
+### 6. Commit clean code
 git commit -m "Clean Titanic project — all Ruff and pre-commit checks passed"
 
-# 7. Push to GitHub
+### 7. Push to GitHub
 git push
