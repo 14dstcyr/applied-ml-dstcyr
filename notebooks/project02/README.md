@@ -14,6 +14,7 @@ notebooks/
   project01/
   project02/
     README.md
+    m102.py
     ml02_stcyr.ipynb
 ```
 > If your repo already has a `notebooks/project02` folder, you can drop these files into it.
@@ -32,6 +33,10 @@ notebooks/
 - The dataset is loaded from `seaborn.load_dataset("titanic")`, so no CSV is required.
 - Correlations use `numeric_only=True` to avoid warnings.
 - The stratified split is stratified by the **target (`survived`)**; compare class distributions to confirm.
+
+## ✅ Final Verification & Commit Workflow
+
+This sequence ensures that all dependencies are up to date, code is cleanly formatted, and all quality checks pass before committing to GitHub.
 
 # 1. Update and sync dependencies (safe to run anytime)
 uv sync --extra dev --extra docs --upgrade
