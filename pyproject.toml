@@ -67,7 +67,7 @@ line-length = 100
 preview = false
 target-version = "py312"
 unsafe-fixes = false
-extend-exclude = ["notebooks/project01"]
+
 
 [tool.ruff.format]
 line-ending = "lf"

@@ -31,3 +31,24 @@ notebooks/
 - The dataset is loaded from `seaborn.load_dataset("titanic")`, so no CSV is required.
 - Correlations use `numeric_only=True` to avoid warnings.
 - The stratified split is stratified by the **target (`survived`)**; compare class distributions to confirm.
+
+# 1. Update and sync dependencies (safe to run anytime)
+uv sync --extra dev --extra docs --upgrade
+
+# 2. Stage only Titanic project files
+git add notebooks/project02 m102.py
+
+# 3. Run Ruff for formatting and linting fixes
+uvx ruff check --fix
+
+# 4. Run all pre-commit quality checks
+uv run pre-commit run --all-files
+
+# 5. Stage any remaining auto-fixes (Ruff or pre-commit may reformat files)
+git add .
+
+# 6. Commit clean code
+git commit -m "Clean Titanic project — all Ruff and pre-commit checks passed"
+
+# 7. Push to GitHub
+git push

@@ -10,6 +10,7 @@ sex, and fare are examined to identify trends and correlations.
 A logistic regression model is then trained to predict passenger survival.
 Several visualizations are included to illustrate data distributions, survival patterns,
 and model insights.
+Code validated and formatted using Ruff; all pre-commit checks passed on 10/31/25.
 """
 
 # Imports (single cell, import each lib only once)
