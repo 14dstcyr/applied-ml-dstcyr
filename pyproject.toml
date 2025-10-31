@@ -61,13 +61,16 @@ where = ["src"]
 
 # Ruff formats, lints, and fixes code
 [tool.ruff]
-exclude = [".venv", ".ruff_cache", "build", "dist", "*.egg-info", ".eggs", "__pycache__", "tests"]
+exclude = [
+    ".venv", ".ruff_cache", "build", "dist", "*.egg-info", ".eggs",
+    "__pycache__", "tests",
+    "notebooks/project01",   # 👈 added line to skip Project 01
+]
 fix = true
 line-length = 100
 preview = false
 target-version = "py312"
 unsafe-fixes = false
-
 
 [tool.ruff.format]
 line-ending = "lf"
