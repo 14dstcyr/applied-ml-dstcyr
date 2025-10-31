@@ -68,8 +68,8 @@ nav:
       - Overview: project01/README.md
       # - Example Analysis: project01/EXAMPLE_ANALYSIS.md
   - Project 02:
-      - Overview: project02/README.md
-      # - Analysis: project02/Analysis.md
+      - Overview: notebooks/project02/README.md
+      
   - Project 03:
       - Overview: project03/README.md
   - Project 04:
