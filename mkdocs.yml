@@ -65,8 +65,9 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Pet Adoption Analysis (Project 01):
-      - Overview: notebooks/project01/README.md
-      - Jupyter Notebook: notebooks/project01/m101_stcyr.ipynb
+      - Overview: project01/README.md
+      - Jupyter Notebook: project01/m101_stcyr.ipynb
   - Titanic Survival Analysis (Project 02):
-      - Overview: notebooks/project02/README.md
-      - Jupyter Notebook: notebooks/project02/ml02_stcyr.ipynb
+      - Overview: project02/README.md
+      - Jupyter Notebook: project02/ml02_stcyr.ipynb
+
