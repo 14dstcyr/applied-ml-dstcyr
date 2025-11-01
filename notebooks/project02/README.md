@@ -11,7 +11,6 @@ This folder contains a ready-to-edit Jupyter Notebook for your Project 2 analysi
 Place this folder under your course repository at:
 ```
 notebooks/
-  project01/
   project02/
     README.md
     m102.py
