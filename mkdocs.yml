@@ -11,7 +11,7 @@ site_url: https://14dstcyr.github.io/applied-ml-dstcyr/
 repo_url: https://github.com/14dstcyr/applied-ml-dstcyr/
 site_description: Professional applied ML project
 site_author: Deb St. Cyr
-docs_dir: docs
+docs_dir: notebooks
 site_dir: site
 
 theme:
