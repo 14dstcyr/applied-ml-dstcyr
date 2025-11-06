@@ -83,3 +83,6 @@ site/
 .mypy_cache/
 .pytype/
 .cache/
+notebooks/example02/lab3_howell/howell_lab3.ipynb
+notebooks/example02/lab3_howell/Howell.csv
+notebooks/example02/lab3_howell/README (5).md
