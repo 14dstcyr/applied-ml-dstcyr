@@ -58,4 +58,4 @@ Each model was trained and evaluated on three feature sets:
 The combined features produced the most reliable survival predictions.  
 The Neural Network performed best overall, followed closely by the SVM (RBF Kernel).  
 Future work may explore feature engineering (e.g., `fare_per_person` or `deck_level`), hyperparameter tuning, and k-fold cross-validation for improved generalization.
- - |
+
