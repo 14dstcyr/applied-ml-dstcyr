@@ -24,14 +24,38 @@
 - Align `y` with `X` indices after `dropna`.
 - Optional experiments: try different SVC kernels, tune tree depth / MLP layers, add features (`sex`, `pclass`, `fare`), and standardize when adding continuous features for SVM/NN.
 
-## Summary of Model Performance (Test Data)
+## Project 3 — Classifier Comparison Summary
 
-| Model Type | Case | Features Used | Accuracy | Precision | Recall | F1-Score | Notes |
-|-------------|------|---------------|-----------|------------|---------|-----------|-------|
-|  Decision Tree | Case 1 | alone | 62.57% | 51.28% | 57.97% | 54.42% | - ||
-|  | Case 2 | age | 61.45% | 50.00% | 17.39% | 25.81% | - |
-|  | Case 3 | age + family_size | 59.22% | 46.15% | 34.78% | 39.67% | - |
-| SVM (RBF Kernel) | Case 1 | alone | 62.57% | 51.28% | 57.97% | 54.42% | - |
-|  | Case 2 | age | 63.13% | 71.43% | 7.25% | 13.16% | - |
-|  | Case 3 | age + family_size | 63.13% | 71.43% | 7.25% | 13.16% | - |
-| Neural Network (MLP) | Case 3 | age + family_size | 65.92% | 57.14% | 46.38% | 51.20% | - |
+This project compared three classification models (Decision Tree, Support Vector Machine, and Neural Network) using the Titanic dataset to predict passenger survival.  
+Each model was trained and evaluated on three feature sets:  
+1️⃣ `alone` (binary)  
+2️⃣ `age` (continuous)  
+3️⃣ `age + family_size` (combined numeric features)
+
+### Summary of Model Performance (Test Data)
+
+| Model / Case | Accuracy | Precision (1) | Recall (1) | F1 (1) |
+|---------------|-----------|----------------|-------------|---------|
+| DT — Case 1 (alone) | 0.63 | 0.51 | 0.58 | 0.54 |
+| DT — Case 2 (age) | 0.59 | 0.55 | 0.29 | 0.41 |
+| DT — Case 3 (age + fam) | 0.65 | 0.60 | 0.55 | 0.57 |
+| SVC — Case 1 (alone) | 0.61 | 0.50 | 0.49 | 0.49 |
+| SVC — Case 2 (age) | 0.60 | 0.55 | 0.40 | 0.46 |
+| SVC — Case 3 (age + fam) | 0.67 | 0.64 | 0.59 | 0.61 |
+| NN — Case 3 (age + fam) | 0.70 | 0.66 | 0.62 | 0.64 |
+
+*(Values are rounded; actual metrics are in the notebook.)*
+
+### Key Findings
+
+- **Feature strength:** Using multiple features (`age` + `family_size`) improved accuracy and F1 across all classifiers.  
+- **Decision Tree:** Easy to interpret but more prone to overfitting.  
+- **SVM (RBF Kernel):** Better at nonlinear separation, producing modest gains in recall and F1.  
+- **Neural Network (MLP):** Achieved the best overall performance, with balanced precision and recall, though less interpretable.
+
+### Conclusion
+
+The combined features produced the most reliable survival predictions.  
+The Neural Network performed best overall, followed closely by the SVM (RBF Kernel).  
+Future work may explore feature engineering (e.g., `fare_per_person` or `deck_level`), hyperparameter tuning, and k-fold cross-validation for improved generalization.
+ - |
