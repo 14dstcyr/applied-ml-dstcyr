@@ -73,3 +73,6 @@ nav:
   -  Classifier Comparison (Project 03):
       - Overview: project03/README.md
       - Jupyter Notebook: project03/m103_stcyr.ipynb
+  - Banknote Authentication (Midterm Project):
+      - Overview: notebooks/midterm/README.md
+      - Jupyter Notebook: notebooks/midterm/classification_dstcyr.ipynb
