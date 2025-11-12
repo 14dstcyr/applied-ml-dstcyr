@@ -21,17 +21,17 @@ This project applies supervised machine learning classification methods to ident
 
 ---
 
-## Setup & Run
-# Create and activate a virtual environment
+# Setup & Run
+### Create and activate a virtual environment
 python -m venv .venv
 
-# Windows
+### Windows
 .venv\Scripts\activate
 
-# macOS/Linux
+### macOS/Linux
 source .venv/bin/activate
 
-# Install dependencies and open the notebook
+### Install dependencies and open the notebook
 pip install -r requirements.txt
 jupyter lab  # or open the notebook in VS Code
 
