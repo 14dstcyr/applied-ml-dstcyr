@@ -1,0 +1,33 @@
+# --- Ignore Jupyter and Python cache files ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# --- Ignore virtual environments ---
+.venv/
+.env/
+*.env
+
+# --- Ignore system and editor files ---
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# --- Ignore data outputs (keep only raw dataset) ---
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.zip
+data/*.gz
+!data/banknote_authentication.txt   # allow your source dataset to stay tracked
+
+# --- Ignore images generated during analysis (optional) ---
+images/*.png
+images/*.jpg
+images/*.jpeg
+!images/confusion_matrix.png
+!images/roc_curve.png
