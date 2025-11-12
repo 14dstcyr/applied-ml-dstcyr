@@ -15,6 +15,10 @@
         <link rel="canonical" href="https://14dstcyr.github.io/applied-ml-dstcyr/midterm/">
       
       
+        <link rel="prev" href="../project03/m103_stcyr.ipynb">
+      
+      
+        <link rel="next" href="classification_dstcyr.ipynb">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +26,7 @@
     
     
       
-        <title>Banknote Authentication — Midterm Classification Project - Applied ML Project</title>
+        <title>Overview - Applied ML Project</title>
       
     
     
@@ -112,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Banknote Authentication — Midterm Classification Project
+              Overview
             
           </span>
         </div>
@@ -573,8 +577,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -585,13 +591,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
@@ -607,7 +611,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Banknote Authentication (Midterm Project)
@@ -618,10 +622,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../notebooks/midterm/README.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -632,6 +658,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objective" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objective
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick Links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results (Summary)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -644,7 +717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../notebooks/midterm/classification_dstcyr.ipynb" class="md-nav__link">
+      <a href="classification_dstcyr.ipynb" class="md-nav__link">
         
   
   
@@ -720,15 +793,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#setup-run" class="md-nav__link">
-    <span class="md-ellipsis">
-      Setup &amp; Run
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -749,8 +813,10 @@
 
 
 <h1 id="banknote-authentication-midterm-classification-project">Banknote Authentication — Midterm Classification Project<a class="headerlink" href="#banknote-authentication-midterm-classification-project" title="Permanent link">&para;</a></h1>
-<p><strong>Author:</strong> Deb St. Cyr
-<strong>Date:</strong> November 2025</p>
+<ul>
+<li><strong>Author:</strong> Deb St. Cyr</li>
+<li><strong>Date:</strong> November 2025</li>
+</ul>
 <h2 id="objective">Objective<a class="headerlink" href="#objective" title="Permanent link">&para;</a></h2>
 <p>This project applies supervised machine learning classification methods to identify whether a banknote is authentic or forged using statistical features calculated from digital image data.</p>
 <h2 id="quick-links">Quick Links<a class="headerlink" href="#quick-links" title="Permanent link">&para;</a></h2>
@@ -768,14 +834,14 @@
   ROC analysis confirmed strong class separation (AUC ≈ 1.00).</li>
 </ul>
 <hr />
-<h2 id="setup-run">Setup &amp; Run<a class="headerlink" href="#setup-run" title="Permanent link">&para;</a></h2>
-<h1 id="create-and-activate-a-virtual-environment">Create and activate a virtual environment<a class="headerlink" href="#create-and-activate-a-virtual-environment" title="Permanent link">&para;</a></h1>
+<h1 id="setup-run">Setup &amp; Run<a class="headerlink" href="#setup-run" title="Permanent link">&para;</a></h1>
+<h3 id="create-and-activate-a-virtual-environment">Create and activate a virtual environment<a class="headerlink" href="#create-and-activate-a-virtual-environment" title="Permanent link">&para;</a></h3>
 <p>python -m venv .venv</p>
-<h1 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h1>
+<h3 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h3>
 <p>.venv\Scripts\activate</p>
-<h1 id="macoslinux">macOS/Linux<a class="headerlink" href="#macoslinux" title="Permanent link">&para;</a></h1>
+<h3 id="macoslinux">macOS/Linux<a class="headerlink" href="#macoslinux" title="Permanent link">&para;</a></h3>
 <p>source .venv/bin/activate</p>
-<h1 id="install-dependencies-and-open-the-notebook">Install dependencies and open the notebook<a class="headerlink" href="#install-dependencies-and-open-the-notebook" title="Permanent link">&para;</a></h1>
+<h3 id="install-dependencies-and-open-the-notebook">Install dependencies and open the notebook<a class="headerlink" href="#install-dependencies-and-open-the-notebook" title="Permanent link">&para;</a></h3>
 <p>pip install -r requirements.txt
 jupyter lab  # or open the notebook in VS Code</p>
 <hr />
