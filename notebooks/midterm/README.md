@@ -1,7 +1,7 @@
 # Banknote Authentication — Midterm Classification Project
 
-**Author:** Deb St. Cyr
-**Date:** November 2025
+- **Author:** Deb St. Cyr
+- **Date:** November 2025
 
 ## Objective
 
