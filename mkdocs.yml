@@ -76,3 +76,6 @@ nav:
   - Banknote Authentication (Midterm Project):
       - Overview: midterm/README.md
       - Jupyter Notebook: midterm/classification_dstcyr.ipynb
+  - Regression Modeling (Project 04):
+      - Overview: project04/README.md
+      - Jupyter Notebook: project04/m104_stcyr.ipynb
