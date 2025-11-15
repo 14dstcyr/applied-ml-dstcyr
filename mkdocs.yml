@@ -79,3 +79,4 @@ nav:
   - Regression Modeling (Project 04):
       - Overview: project04/README.md
       - Jupyter Notebook: project04/m104_stcyr.ipynb
+  - P4 Regression Model: notebooks/p4_regression_model/index.md
