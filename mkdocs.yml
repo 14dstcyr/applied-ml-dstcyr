@@ -80,3 +80,6 @@ nav:
       - Overview: project04/README.md
       - Jupyter Notebook: project04/m104_stcyr.ipynb
   - P4 Regression Model: notebooks/p4_regression_model/index.md
+  - Ensemble Models (Project 05):
+    - Overview: project05/README.md
+    - Jupyter Notebook: project05/ensemble_stcyr.ipynb
