@@ -83,7 +83,8 @@ project05/
 
 ## Conclusion
 
-Tree-based ensemble models are highly effective for predicting wine quality.  
-Random Forest achieved the best accuracy and most stable results, while Gradient Boosting showed strong generalization and competitive performance.
+This project explores the effectiveness of ensemble machine learning models compared to traditional baseline classifiers. After preparing the dataset and establishing baseline performance with kNN and a Decision Tree, I evaluated several ensemble approaches including Random Forest, Gradient Boosting, Voting Classifiers, and Bagging.
 
-Future improvements could include extensive hyperparameter tuning, stratified cross-validation, addressing class imbalance, or testing advanced gradient boosting methods such as XGBoost or CatBoost.
+The results demonstrated a clear improvement when using ensemble methods. Random Forest (100 trees) achieved the highest test accuracy at 0.8875, outperforming all baseline models. Gradient Boosting also performed well, reaching 0.8562. The Voting Classifier combining a Decision Tree, SVM, and Neural Network achieved 0.8594, improving on the baseline but not surpassing Random Forest.
+
+This project highlights how ensemble techniques reduce variance, create smoother decision boundaries, and deliver more robust predictions. Random Forest was the top performing and most stable model in this analysis.
