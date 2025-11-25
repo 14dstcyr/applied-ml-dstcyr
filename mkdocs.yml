@@ -82,3 +82,6 @@ nav:
   - Ensemble Models (Project 05):
     - Overview: project05/README.md
     - Jupyter Notebook: project05/ensemble_stcyr.ipynb
+  - Final Project (Project 06):
+    - Overview: project06/PROJECT_SUMMARY.md
+    - Juypter Notebook: project06/ml_regression_stcyr.ipynb
