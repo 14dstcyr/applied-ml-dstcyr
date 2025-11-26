@@ -4,6 +4,17 @@
     "python.analysis.indexing": true,
     "python.analysis.diagnosticMode": "openFilesOnly",
     "python.analysis.typeCheckingMode": "off",
-    "python.venvPath": "${workspaceFolder}/.venv"
+    "python.venvPath": "${workspaceFolder}/.venv",
+    "cSpell.words": [
+      "codehilite",
+      "denisecase",
+      "dstcyr",
+      "ipynb",
+      "mkdocs",
+      "mkdocstrings",
+      "pymdownx",
+      "stcyr",
+      "superfences"
+    ]
   }
   
