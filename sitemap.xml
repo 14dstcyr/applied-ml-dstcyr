@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://14dstcyr.github.io/applied-ml-dstcyr/</loc>
-         <lastmod>2025-11-12</lastmod>
-    </url>
-    <url>
-         <loc>https://14dstcyr.github.io/applied-ml-dstcyr/example02/README%20%285%29/</loc>
-         <lastmod>2025-11-12</lastmod>
-    </url>
-    <url>
-         <loc>https://14dstcyr.github.io/applied-ml-dstcyr/example02/lab3_howell/README_lab3/</loc>
-         <lastmod>2025-11-12</lastmod>
-    </url>
-    <url>
-         <loc>https://14dstcyr.github.io/applied-ml-dstcyr/midterm/</loc>
-         <lastmod>2025-11-12</lastmod>
-    </url>
-    <url>
-         <loc>https://14dstcyr.github.io/applied-ml-dstcyr/midterm/peer_review/</loc>
-         <lastmod>2025-11-12</lastmod>
+         <lastmod>2025-11-26</lastmod>
     </url>
     <url>
          <loc>https://14dstcyr.github.io/applied-ml-dstcyr/project01/</loc>
-         <lastmod>2025-11-12</lastmod>
+         <lastmod>2025-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://14dstcyr.github.io/applied-ml-dstcyr/project01/EXAMPLE_ANALYSIS/</loc>
+         <lastmod>2025-11-26</lastmod>
     </url>
     <url>
          <loc>https://14dstcyr.github.io/applied-ml-dstcyr/project02/</loc>
-         <lastmod>2025-11-12</lastmod>
+         <lastmod>2025-11-26</lastmod>
     </url>
     <url>
          <loc>https://14dstcyr.github.io/applied-ml-dstcyr/project03/</loc>
-         <lastmod>2025-11-12</lastmod>
+         <lastmod>2025-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://14dstcyr.github.io/applied-ml-dstcyr/project04/</loc>
+         <lastmod>2025-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://14dstcyr.github.io/applied-ml-dstcyr/project06/</loc>
+         <lastmod>2025-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://14dstcyr.github.io/applied-ml-dstcyr/project06/PROJECT_SUMMARY/</loc>
+         <lastmod>2025-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://14dstcyr.github.io/applied-ml-dstcyr/project06/peer_review/</loc>
+         <lastmod>2025-11-26</lastmod>
     </url>
 </urlset>

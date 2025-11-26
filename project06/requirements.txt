@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyter
+
+mkdocs
+mkdocs-material
+mkdocs-jupyter
