@@ -57,3 +57,24 @@ jobs:
             echo "ERROR: mkdocs.yml not found."
             exit 1
           fi
+
+      # ------------------- DEPLOY -------------------
+
+      - name: D1) Build docs (mkdocs --strict)
+        run: uv run mkdocs build --strict
+
+      - name: D2) Assert site artifact exists
+        run: |
+          test -d site && test -f site/index.html || {
+            echo "ERROR: MkDocs build produced no site/index.html"
+            exit 1
+          }
+
+      - name: D3) Upload site as artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+      - name: D4) Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
