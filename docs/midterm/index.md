@@ -8,7 +8,7 @@ This project evaluates multiple models to determine which classifier best distin
 ## 📘 Project Notebook
 Open the full Jupyter notebook here:
 
-- **[Midterm Project Notebook](midterm_stcyr.ipynb)**
+- **[Midterm Project Notebook](classification_dstcyr.ipynb)**
 
 ---
 

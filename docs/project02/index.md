@@ -7,7 +7,7 @@ Welcome to **Project 02**, where I continue building classification skills by ex
 ## 📘 Project Notebook
 Open the full Jupyter notebook here:
 
-- **[Project 02 Notebook](m102_stcyr.ipynb)**
+- - **[Project 02 Notebook](ml02_stcyr.ipynb)**
 
 ---
 

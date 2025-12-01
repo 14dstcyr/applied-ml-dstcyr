@@ -63,13 +63,11 @@ markdown_extensions:
   - pymdownx.details # Collapsible sections
 
 nav:
-  - Home: index.md
-
-  - Pet Adoption Analysis (Project 01):
+  - Classifier Intro (Project 01):
       - Overview: project01/index.md
       - Jupyter Notebook: project01/m101_stcyr.ipynb
 
-  - Titanic Survival Analysis (Project 02):
+  - Classifier Experimentation (Project 02):
       - Overview: project02/index.md
       - Jupyter Notebook: project02/ml02_stcyr.ipynb
 
@@ -77,13 +75,9 @@ nav:
       - Overview: project03/index.md
       - Jupyter Notebook: project03/m103_stcyr.ipynb
 
-  - Banknote Authentication (Midterm Project):
-      - Overview: midterm/index.md
-      - Jupyter Notebook: midterm/classification_dstcyr.ipynb
-
   - Regression Modeling (Project 04):
       - Overview: project04/index.md
-      - Jupyter Notebook: project04/ml04_stcyr.ipynb
+      - Jupyter Notebook: project04/m104_stcyr.ipynb
 
   - Ensemble Models (Project 05):
       - Overview: project05/index.md
@@ -92,3 +86,7 @@ nav:
   - Final Project (Project 06):
       - Overview: project06/index.md
       - Jupyter Notebook: project06/ml_regression_stcyr.ipynb
+
+  - Banknote Authentication (Midterm Project):
+      - Overview: midterm/index.md
+      - Jupyter Notebook: midterm/classification_dstcyr.ipynb

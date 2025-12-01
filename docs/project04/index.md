@@ -8,7 +8,7 @@ In this project, I explore predicting a continuous numeric target using several 
 ## 📘 Project Notebook
 Open the full Jupyter notebook here:
 
-- **[Project 04 Notebook](ml04_stcyr.ipynb)**
+- **[Project 04 Notebook](m104_stcyr.ipynb)**
 
 ---
 
