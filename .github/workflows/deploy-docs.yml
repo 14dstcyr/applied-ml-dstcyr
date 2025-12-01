@@ -52,4 +52,8 @@ jobs:
       - name: B1) Fail fast if no MkDocs configuration
         run: |
           if [ -f "mkdocs.yml" ] || [ -f "mkdocs.yaml" ]; then
-            echo "MkDocs co
+            echo "MkDocs configuration found. Proceeding."
+          else
+            echo "ERROR: mkdocs.yml not found."
+            exit 1
+          fi
