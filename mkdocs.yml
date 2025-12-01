@@ -65,6 +65,7 @@ markdown_extensions:
 nav:
   - Classifier Intro (Project 01):
       - Overview: project01/index.md
+      - Analysis Example: project01/EXAMPLE_ANALYSIS.md
       - Jupyter Notebook: project01/m101_stcyr.ipynb
 
   - Classifier Experimentation (Project 02):
