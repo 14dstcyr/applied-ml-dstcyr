@@ -9,6 +9,7 @@ This smoke test verifies that:
     - Basic project structure is intact
 """
 
+
 def test_smoke():
     """Placeholder test to verify pytest is working."""
     assert True
