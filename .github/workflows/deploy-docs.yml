@@ -51,6 +51,10 @@ jobs:
       - name: A4) Sync to install dependencies
         run: uv sync --extra dev --extra docs --upgrade
 
+      - name: A5) Ensure MkDocs + Material are installed
+        run: uv pip install mkdocs mkdocs-material mkdocstrings[python] livereload watchdog
+
+
       # ------------------- BASELINE CHECKS -------------------
 
       - name: B1) Fail fast if no MkDocs configuration
