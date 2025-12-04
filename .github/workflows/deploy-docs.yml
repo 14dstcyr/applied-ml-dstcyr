@@ -41,7 +41,7 @@ jobs:
         run: uv python pin 3.12
 
       - name: A4) Sync to install dependencies
-        run: uv sync --extra dev --extra docs --extra notebooks --upgrade
+        run: uv sync --extra dev --extra docs --upgrade
 
         
       # ------------------- BASELINE CHECKS -------------------
