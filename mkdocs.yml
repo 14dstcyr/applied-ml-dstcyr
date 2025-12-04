@@ -63,6 +63,7 @@ markdown_extensions:
   - pymdownx.details # Collapsible sections
 
 nav:
+  - Home: index.md
   - Classifier Intro (Project 01):
       - Overview: project01/index.md
       - Jupyter Notebook: project01/m101_stcyr.ipynb
