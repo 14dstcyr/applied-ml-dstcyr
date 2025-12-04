@@ -41,9 +41,9 @@ jobs:
         run: uv python pin 3.12
 
       - name: A4) Sync to install dependencies
-        run: uv sync --extra dev --extra docs --upgrade
+        run: uv sync --extra dev --extra docs --extra notebooks --upgrade
 
-      
+        
       # ------------------- BASELINE CHECKS -------------------
 
       - name: B1) Fail fast if no MkDocs configuration
